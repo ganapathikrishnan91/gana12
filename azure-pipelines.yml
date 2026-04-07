@@ -7,6 +7,9 @@ trigger:
 resources:
 - repo: self
 
+pool:
+  name: GANA AZUREDEVOPS self hosted  # Replace with your actual agent pool name
+
 variables:
   tag: '$(Build.BuildId)'
   DOCKER_IMAGE: 'mongo:7.0.32-rc1-jammy'   # Change this to any image you want to scan
