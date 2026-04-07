@@ -8,7 +8,7 @@ resources:
 - repo: self
 
 pool:
-  name: GANA AZUREDEVOPS self hosted  # Replace with your actual agent pool name
+  name: GANA AZUREDEVOPS  # Replace with your actual agent pool name
 
 variables:
   tag: '$(Build.BuildId)'
